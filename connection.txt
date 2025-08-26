@@ -1,0 +1,65 @@
+before running install all requirements.txt
+if you made any chnges after server connection make sure to STOP both frontend and backend servers.
+Verify Flask-CORS Installation:
+In backend/ terminal, with venv active: pip show Flask-CORS. Confirm it's there.
+If not: pip install Flask-CORS and then pip freeze > requirements.txt.
+Check backend/app.py CAREFULLY:
+Ensure from flask_cors import CORS is at the top with other imports.
+Ensure CORS(app, supports_credentials=True, resources={r"/api/*": {"origins": "http://localhost:8000"}}) is present immediately after app = Flask(__name__). No typos.
+Save app.py.
+Restart Backend Server:
+In backend/ terminal (venv active)(venv\Scripts\activate): python app.py. Watch for any startup errors.
+Restart Frontend Server:
+In frontend/ terminal: python -m http.server 8000.
+Test in Browser (Incognito/Private Window Recommended for this test):
+Open http://localhost:8000.
+Open Developer Tools (F12) -> Network Tab and Console Tab.
+Try to register or login.
+member login- admin id :Mokshitha password:123456
+
+
+IN TERMINAL TO CONNECT SERVER OR TO CHECK USE THIS CMD
+PS C:\Users\j mokshitha rohini\OneDrive\Desktop\ai_gym_trainer> cd backend
+PS C:\Users\j mokshitha rohini\OneDrive\Desktop\ai_gym_trainer\backend> venv\Scripts\activate
+(venv) PS C:\Users\j mokshitha rohini\OneDrive\Desktop\ai_gym_trainer\backend> python app.py
+[2025-06-01 23:13:05,139] INFO in app: Diet dataset loaded. Shape: (1000, 7). Columns: ['Diet_type', 'Recipe_name', 'Calories', 'Protein', 'Carbs', 'Fat', 'Cuisine']
+INFO:app:Diet dataset loaded. Shape: (1000, 7). Columns: ['Diet_type', 'Recipe_name', 'Calories', 'Protein', 'Carbs', 'Fat', 'Cuisine']
+[2025-06-01 23:13:05,143] INFO in app: Fitness dataset loaded. Shape: (1000, 8).
+INFO:app:Fitness dataset loaded. Shape: (1000, 8).
+[2025-06-01 23:13:05,160] INFO in app: Checking database at: C:\Users\j mokshitha rohini\OneDrive\Desktop\ai_gym_trainer\backend\instance\app.db
+INFO:app:Checking database at: C:\Users\j mokshitha rohini\OneDrive\Desktop\ai_gym_trainer\backend\instance\app.db
+[2025-06-01 23:13:05,170] INFO in app: Database tables ensured (created if not existing).
+INFO:app:Database tables ensured (created if not existing).
+[2025-06-01 23:13:05,188] INFO in app: Admin user 'mokshitha' already exists.
+INFO:app:Admin user 'mokshitha' already exists.
+[2025-06-01 23:13:05,471] INFO in app: Starting AI Gym Trainer API Backend Server...
+INFO:app:Starting AI Gym Trainer API Backend Server...
+ * Serving Flask app 'app'
+ * Debug mode: on
+INFO:werkzeug:WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.101:5000
+INFO:werkzeug:Press CTRL+C to quit
+INFO:werkzeug: * Restarting with stat
+[2025-06-01 23:13:06,716] INFO in app: Diet dataset loaded. Shape: (1000, 7). Columns: ['Diet_type', 'Recipe_name', 'Calories', 'Protein', 'Carbs', 'Fat', 'Cuisine']
+INFO:app:Diet dataset loaded. Shape: (1000, 7). Columns: ['Diet_type', 'Recipe_name', 'Calories', 'Protein', 'Carbs', 'Fat', 'Cuisine']
+[2025-06-01 23:13:06,720] INFO in app: Fitness dataset loaded. Shape: (1000, 8).
+INFO:app:Fitness dataset loaded. Shape: (1000, 8).
+[2025-06-01 23:13:06,734] INFO in app: Checking database at: C:\Users\j mokshitha rohini\OneDrive\Desktop\ai_gym_trainer\backend\instance\app.db
+INFO:app:Checking database at: C:\Users\j mokshitha rohini\OneDrive\Desktop\ai_gym_trainer\backend\instance\app.db
+[2025-06-01 23:13:06,737] INFO in app: Database tables ensured (created if not existing).
+INFO:app:Database tables ensured (created if not existing).
+[2025-06-01 23:13:06,750] INFO in app: Admin user 'mokshitha' already exists.
+INFO:app:Admin user 'mokshitha' already exists.
+[2025-06-01 23:13:07,051] INFO in app: Starting AI Gym Trainer API Backend Server...
+INFO:app:Starting AI Gym Trainer API Backend Server...
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 106-800-811
+
+                   AFTER THIS WITH OUT CLOSING OPEN OTHER TERMINAL
+
+PS C:\Users\j mokshitha rohini\OneDrive\Desktop\ai_gym_trainer> cd frontend
+PS C:\Users\j mokshitha rohini\OneDrive\Desktop\ai_gym_trainer\frontend> python -m http.server 8000
+Serving HTTP on :: port 8000 (http://[::]:8000/) ...
+
