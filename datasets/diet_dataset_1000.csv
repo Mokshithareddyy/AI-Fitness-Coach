@@ -1,0 +1,1001 @@
+Diet_type,Recipe_name,Calories,Protein,Carbs,Fat,Cuisine
+Paleo,Grilled Salmon with Asparagus,476,20,50,10,Indian
+Keto,Avocado and Egg Salad,477,21,51,11,Chinese
+Vegan,Chickpea Curry with Rice,478,22,52,12,Italian
+Paleo,Quinoa Salad with Roasted Veggies,479,23,53,13,Indian
+Keto,Spaghetti Carbonara,480,24,54,14,Chinese
+Vegan,Vegetable Stir Fry,481,25,55,15,Italian
+Paleo,Beef Tacos,482,26,56,16,Indian
+Keto,Lentil Soup,483,27,57,17,Chinese
+Vegan,Chicken Caesar Salad,484,28,58,18,Italian
+Paleo,Vegan Buddha Bowl,485,29,59,19,Indian
+Keto,Shrimp Scampi,486,30,60,20,Chinese
+Vegan,Zucchini Noodles with Pesto,487,31,61,21,Italian
+Paleo,Stuffed Bell Peppers,488,32,62,22,Indian
+Keto,Eggplant Parmesan,489,33,63,23,Chinese
+Vegan,Turkey Meatballs,490,34,64,24,Italian
+Paleo,Black Bean Burrito,491,35,65,25,Indian
+Keto,Cauliflower Fried Rice,492,36,66,26,Chinese
+Vegan,Mushroom Risotto,493,37,67,27,Italian
+Paleo,Greek Salad,494,38,68,28,Indian
+Keto,Tomato Basil Soup,495,39,69,29,Chinese
+Vegan,BBQ Chicken Wrap,496,40,70,10,Italian
+Paleo,Kale and Quinoa Salad,497,41,71,11,Indian
+Keto,Fish Tacos,498,42,72,12,Chinese
+Vegan,Sweet Potato Fries,499,43,73,13,Italian
+Paleo,Cobb Salad,500,44,74,14,Indian
+Keto,Pork Stir Fry,501,45,75,15,Chinese
+Vegan,Sushi Bowl,502,46,76,16,Italian
+Paleo,Baked Ziti,503,47,77,17,Indian
+Keto,Falafel Wrap,504,48,78,18,Chinese
+Vegan,Beef Stroganoff,505,49,79,19,Italian
+Paleo,Butternut Squash Soup,506,20,80,20,Indian
+Keto,Chicken Fajitas,507,21,81,21,Chinese
+Vegan,Tofu Stir Fry,508,22,82,22,Italian
+Paleo,Lamb Kebabs,509,23,83,23,Indian
+Keto,Vegetable Curry,510,24,84,24,Chinese
+Vegan,Buffalo Chicken Salad,511,25,85,25,Italian
+Paleo,Minestrone Soup,512,26,86,26,Indian
+Keto,Egg Salad Sandwich,513,27,87,27,Chinese
+Vegan,Pad Thai,514,28,88,28,Italian
+Paleo,Shrimp and Grits,515,29,89,29,Indian
+Keto,Roasted Brussels Sprouts,516,30,90,10,Chinese
+Vegan,Turkey Chili,517,31,91,11,Italian
+Paleo,Veggie Omelette,518,32,92,12,Indian
+Keto,Caesar Wrap,519,33,93,13,Chinese
+Vegan,Salmon Sushi,520,34,94,14,Italian
+Paleo,Pasta Primavera,521,35,95,15,Indian
+Keto,Chicken Teriyaki,522,36,96,16,Chinese
+Vegan,Quiche Lorraine,523,37,97,17,Italian
+Paleo,Greek Yogurt Parfait,524,38,98,18,Indian
+Keto,Vegetable Lasagna,525,39,99,19,Chinese
+Vegan,Pulled Pork Sandwich,526,40,50,20,Italian
+Paleo,Beet Salad,527,41,51,21,Indian
+Keto,Chicken Noodle Soup,528,42,52,22,Chinese
+Vegan,Mango Salsa Chicken,529,43,53,23,Italian
+Paleo,Ratatouille,530,44,54,24,Indian
+Keto,Blackened Fish,531,45,55,25,Chinese
+Vegan,Spinach Salad,532,46,56,26,Italian
+Paleo,Lobster Roll,533,47,57,27,Indian
+Keto,Veggie Burger,534,48,58,28,Chinese
+Vegan,Chicken Alfredo,535,49,59,29,Italian
+Paleo,Stuffed Mushrooms,536,20,60,10,Indian
+Keto,Clam Chowder,537,21,61,11,Chinese
+Vegan,Chicken Curry,538,22,62,12,Italian
+Paleo,Grilled Cheese Sandwich,539,23,63,13,Indian
+Keto,Tuna Salad,540,24,64,14,Chinese
+Vegan,Beef Burger,541,25,65,15,Italian
+Paleo,Vegetable Paella,542,26,66,16,Indian
+Keto,Shrimp Cocktail,543,27,67,17,Chinese
+Vegan,Tom Yum Soup,544,28,68,18,Italian
+Paleo,Pulled Chicken Tacos,545,29,69,19,Indian
+Keto,Cauliflower Pizza,546,30,70,20,Chinese
+Vegan,Beef and Broccoli,547,31,71,21,Italian
+Paleo,Fish and Chips,548,32,72,22,Indian
+Keto,Veggie Stir Fry,549,33,73,23,Chinese
+Vegan,Chicken Parmesan,550,34,74,24,Italian
+Paleo,Roast Beef Sandwich,551,35,75,25,Indian
+Keto,French Onion Soup,552,36,76,26,Chinese
+Vegan,Vegetable Frittata,553,37,77,27,Italian
+Paleo,Pork Carnitas,554,38,78,28,Indian
+Keto,Caprese Salad,555,39,79,29,Chinese
+Vegan,Baked Salmon,556,40,80,10,Italian
+Paleo,Chili Con Carne,557,41,81,11,Indian
+Keto,Sweet and Sour Chicken,558,42,82,12,Chinese
+Vegan,Spinach and Feta Pie,559,43,83,13,Italian
+Paleo,Chicken Shawarma,560,44,84,14,Indian
+Keto,Eggplant Rollatini,561,45,85,15,Chinese
+Vegan,Meatloaf,562,46,86,16,Italian
+Paleo,Shrimp Pad Thai,563,47,87,17,Indian
+Keto,Vegetable Samosa,564,48,88,18,Chinese
+Vegan,Chicken Pot Pie,565,49,89,19,Italian
+Paleo,Veggie Quesadilla,566,20,90,20,Indian
+Keto,Pork Schnitzel,567,21,91,21,Chinese
+Vegan,Chicken Marsala,568,22,92,22,Italian
+Paleo,Zoodle Salad,569,23,93,23,Indian
+Keto,Falafel Salad,570,24,94,24,Chinese
+Vegan,Thai Green Curry,571,25,95,25,Italian
+Paleo,BBQ Ribs,572,26,96,26,Indian
+Keto,Roast Chicken,573,27,97,27,Chinese
+Vegan,Vegetable Tempura,574,28,98,28,Italian
+Paleo,Lentil Dahl,575,29,99,29,Indian
+Keto,Grilled Salmon with Asparagus,476,30,50,10,Chinese
+Vegan,Avocado and Egg Salad,477,31,51,11,Italian
+Paleo,Chickpea Curry with Rice,478,32,52,12,Indian
+Keto,Quinoa Salad with Roasted Veggies,479,33,53,13,Chinese
+Vegan,Spaghetti Carbonara,480,34,54,14,Italian
+Paleo,Vegetable Stir Fry,481,35,55,15,Indian
+Keto,Beef Tacos,482,36,56,16,Chinese
+Vegan,Lentil Soup,483,37,57,17,Italian
+Paleo,Chicken Caesar Salad,484,38,58,18,Indian
+Keto,Vegan Buddha Bowl,485,39,59,19,Chinese
+Vegan,Shrimp Scampi,486,40,60,20,Italian
+Paleo,Zucchini Noodles with Pesto,487,41,61,21,Indian
+Keto,Stuffed Bell Peppers,488,42,62,22,Chinese
+Vegan,Eggplant Parmesan,489,43,63,23,Italian
+Paleo,Turkey Meatballs,490,44,64,24,Indian
+Keto,Black Bean Burrito,491,45,65,25,Chinese
+Vegan,Cauliflower Fried Rice,492,46,66,26,Italian
+Paleo,Mushroom Risotto,493,47,67,27,Indian
+Keto,Greek Salad,494,48,68,28,Chinese
+Vegan,Tomato Basil Soup,495,49,69,29,Italian
+Paleo,BBQ Chicken Wrap,496,20,70,10,Indian
+Keto,Kale and Quinoa Salad,497,21,71,11,Chinese
+Vegan,Fish Tacos,498,22,72,12,Italian
+Paleo,Sweet Potato Fries,499,23,73,13,Indian
+Keto,Cobb Salad,500,24,74,14,Chinese
+Vegan,Pork Stir Fry,501,25,75,15,Italian
+Paleo,Sushi Bowl,502,26,76,16,Indian
+Keto,Baked Ziti,503,27,77,17,Chinese
+Vegan,Falafel Wrap,504,28,78,18,Italian
+Paleo,Beef Stroganoff,505,29,79,19,Indian
+Keto,Butternut Squash Soup,506,30,80,20,Chinese
+Vegan,Chicken Fajitas,507,31,81,21,Italian
+Paleo,Tofu Stir Fry,508,32,82,22,Indian
+Keto,Lamb Kebabs,509,33,83,23,Chinese
+Vegan,Vegetable Curry,510,34,84,24,Italian
+Paleo,Buffalo Chicken Salad,511,35,85,25,Indian
+Keto,Minestrone Soup,512,36,86,26,Chinese
+Vegan,Egg Salad Sandwich,513,37,87,27,Italian
+Paleo,Pad Thai,514,38,88,28,Indian
+Keto,Shrimp and Grits,515,39,89,29,Chinese
+Vegan,Roasted Brussels Sprouts,516,40,90,10,Italian
+Paleo,Turkey Chili,517,41,91,11,Indian
+Keto,Veggie Omelette,518,42,92,12,Chinese
+Vegan,Caesar Wrap,519,43,93,13,Italian
+Paleo,Salmon Sushi,520,44,94,14,Indian
+Keto,Pasta Primavera,521,45,95,15,Chinese
+Vegan,Chicken Teriyaki,522,46,96,16,Italian
+Paleo,Quiche Lorraine,523,47,97,17,Indian
+Keto,Greek Yogurt Parfait,524,48,98,18,Chinese
+Vegan,Vegetable Lasagna,525,49,99,19,Italian
+Paleo,Pulled Pork Sandwich,526,20,50,20,Indian
+Keto,Beet Salad,527,21,51,21,Chinese
+Vegan,Chicken Noodle Soup,528,22,52,22,Italian
+Paleo,Mango Salsa Chicken,529,23,53,23,Indian
+Keto,Ratatouille,530,24,54,24,Chinese
+Vegan,Blackened Fish,531,25,55,25,Italian
+Paleo,Spinach Salad,532,26,56,26,Indian
+Keto,Lobster Roll,533,27,57,27,Chinese
+Vegan,Veggie Burger,534,28,58,28,Italian
+Paleo,Chicken Alfredo,535,29,59,29,Indian
+Keto,Stuffed Mushrooms,536,30,60,10,Chinese
+Vegan,Clam Chowder,537,31,61,11,Italian
+Paleo,Chicken Curry,538,32,62,12,Indian
+Keto,Grilled Cheese Sandwich,539,33,63,13,Chinese
+Vegan,Tuna Salad,540,34,64,14,Italian
+Paleo,Beef Burger,541,35,65,15,Indian
+Keto,Vegetable Paella,542,36,66,16,Chinese
+Vegan,Shrimp Cocktail,543,37,67,17,Italian
+Paleo,Tom Yum Soup,544,38,68,18,Indian
+Keto,Pulled Chicken Tacos,545,39,69,19,Chinese
+Vegan,Cauliflower Pizza,546,40,70,20,Italian
+Paleo,Beef and Broccoli,547,41,71,21,Indian
+Keto,Fish and Chips,548,42,72,22,Chinese
+Vegan,Veggie Stir Fry,549,43,73,23,Italian
+Paleo,Chicken Parmesan,550,44,74,24,Indian
+Keto,Roast Beef Sandwich,551,45,75,25,Chinese
+Vegan,French Onion Soup,552,46,76,26,Italian
+Paleo,Vegetable Frittata,553,47,77,27,Indian
+Keto,Pork Carnitas,554,48,78,28,Chinese
+Vegan,Caprese Salad,555,49,79,29,Italian
+Paleo,Baked Salmon,556,20,80,10,Indian
+Keto,Chili Con Carne,557,21,81,11,Chinese
+Vegan,Sweet and Sour Chicken,558,22,82,12,Italian
+Paleo,Spinach and Feta Pie,559,23,83,13,Indian
+Keto,Chicken Shawarma,560,24,84,14,Chinese
+Vegan,Eggplant Rollatini,561,25,85,15,Italian
+Paleo,Meatloaf,562,26,86,16,Indian
+Keto,Shrimp Pad Thai,563,27,87,17,Chinese
+Vegan,Vegetable Samosa,564,28,88,18,Italian
+Paleo,Chicken Pot Pie,565,29,89,19,Indian
+Keto,Veggie Quesadilla,566,30,90,20,Chinese
+Vegan,Pork Schnitzel,567,31,91,21,Italian
+Paleo,Chicken Marsala,568,32,92,22,Indian
+Keto,Zoodle Salad,569,33,93,23,Chinese
+Vegan,Falafel Salad,570,34,94,24,Italian
+Paleo,Thai Green Curry,571,35,95,25,Indian
+Keto,BBQ Ribs,572,36,96,26,Chinese
+Vegan,Roast Chicken,573,37,97,27,Italian
+Paleo,Vegetable Tempura,574,38,98,28,Indian
+Keto,Lentil Dahl,575,39,99,29,Chinese
+Vegan,Grilled Salmon with Asparagus,476,40,50,10,Italian
+Paleo,Avocado and Egg Salad,477,41,51,11,Indian
+Keto,Chickpea Curry with Rice,478,42,52,12,Chinese
+Vegan,Quinoa Salad with Roasted Veggies,479,43,53,13,Italian
+Paleo,Spaghetti Carbonara,480,44,54,14,Indian
+Keto,Vegetable Stir Fry,481,45,55,15,Chinese
+Vegan,Beef Tacos,482,46,56,16,Italian
+Paleo,Lentil Soup,483,47,57,17,Indian
+Keto,Chicken Caesar Salad,484,48,58,18,Chinese
+Vegan,Vegan Buddha Bowl,485,49,59,19,Italian
+Paleo,Shrimp Scampi,486,20,60,20,Indian
+Keto,Zucchini Noodles with Pesto,487,21,61,21,Chinese
+Vegan,Stuffed Bell Peppers,488,22,62,22,Italian
+Paleo,Eggplant Parmesan,489,23,63,23,Indian
+Keto,Turkey Meatballs,490,24,64,24,Chinese
+Vegan,Black Bean Burrito,491,25,65,25,Italian
+Paleo,Cauliflower Fried Rice,492,26,66,26,Indian
+Keto,Mushroom Risotto,493,27,67,27,Chinese
+Vegan,Greek Salad,494,28,68,28,Italian
+Paleo,Tomato Basil Soup,495,29,69,29,Indian
+Keto,BBQ Chicken Wrap,496,30,70,10,Chinese
+Vegan,Kale and Quinoa Salad,497,31,71,11,Italian
+Paleo,Fish Tacos,498,32,72,12,Indian
+Keto,Sweet Potato Fries,499,33,73,13,Chinese
+Vegan,Cobb Salad,500,34,74,14,Italian
+Paleo,Pork Stir Fry,501,35,75,15,Indian
+Keto,Sushi Bowl,502,36,76,16,Chinese
+Vegan,Baked Ziti,503,37,77,17,Italian
+Paleo,Falafel Wrap,504,38,78,18,Indian
+Keto,Beef Stroganoff,505,39,79,19,Chinese
+Vegan,Butternut Squash Soup,506,40,80,20,Italian
+Paleo,Chicken Fajitas,507,41,81,21,Indian
+Keto,Tofu Stir Fry,508,42,82,22,Chinese
+Vegan,Lamb Kebabs,509,43,83,23,Italian
+Paleo,Vegetable Curry,510,44,84,24,Indian
+Keto,Buffalo Chicken Salad,511,45,85,25,Chinese
+Vegan,Minestrone Soup,512,46,86,26,Italian
+Paleo,Egg Salad Sandwich,513,47,87,27,Indian
+Keto,Pad Thai,514,48,88,28,Chinese
+Vegan,Shrimp and Grits,515,49,89,29,Italian
+Paleo,Roasted Brussels Sprouts,516,20,90,10,Indian
+Keto,Turkey Chili,517,21,91,11,Chinese
+Vegan,Veggie Omelette,518,22,92,12,Italian
+Paleo,Caesar Wrap,519,23,93,13,Indian
+Keto,Salmon Sushi,520,24,94,14,Chinese
+Vegan,Pasta Primavera,521,25,95,15,Italian
+Paleo,Chicken Teriyaki,522,26,96,16,Indian
+Keto,Quiche Lorraine,523,27,97,17,Chinese
+Vegan,Greek Yogurt Parfait,524,28,98,18,Italian
+Paleo,Vegetable Lasagna,525,29,99,19,Indian
+Keto,Pulled Pork Sandwich,526,30,50,20,Chinese
+Vegan,Beet Salad,527,31,51,21,Italian
+Paleo,Chicken Noodle Soup,528,32,52,22,Indian
+Keto,Mango Salsa Chicken,529,33,53,23,Chinese
+Vegan,Ratatouille,530,34,54,24,Italian
+Paleo,Blackened Fish,531,35,55,25,Indian
+Keto,Spinach Salad,532,36,56,26,Chinese
+Vegan,Lobster Roll,533,37,57,27,Italian
+Paleo,Veggie Burger,534,38,58,28,Indian
+Keto,Chicken Alfredo,535,39,59,29,Chinese
+Vegan,Stuffed Mushrooms,536,40,60,10,Italian
+Paleo,Clam Chowder,537,41,61,11,Indian
+Keto,Chicken Curry,538,42,62,12,Chinese
+Vegan,Grilled Cheese Sandwich,539,43,63,13,Italian
+Paleo,Tuna Salad,540,44,64,14,Indian
+Keto,Beef Burger,541,45,65,15,Chinese
+Vegan,Vegetable Paella,542,46,66,16,Italian
+Paleo,Shrimp Cocktail,543,47,67,17,Indian
+Keto,Tom Yum Soup,544,48,68,18,Chinese
+Vegan,Pulled Chicken Tacos,545,49,69,19,Italian
+Paleo,Cauliflower Pizza,546,20,70,20,Indian
+Keto,Beef and Broccoli,547,21,71,21,Chinese
+Vegan,Fish and Chips,548,22,72,22,Italian
+Paleo,Veggie Stir Fry,549,23,73,23,Indian
+Keto,Chicken Parmesan,550,24,74,24,Chinese
+Vegan,Roast Beef Sandwich,551,25,75,25,Italian
+Paleo,French Onion Soup,552,26,76,26,Indian
+Keto,Vegetable Frittata,553,27,77,27,Chinese
+Vegan,Pork Carnitas,554,28,78,28,Italian
+Paleo,Caprese Salad,555,29,79,29,Indian
+Keto,Baked Salmon,556,30,80,10,Chinese
+Vegan,Chili Con Carne,557,31,81,11,Italian
+Paleo,Sweet and Sour Chicken,558,32,82,12,Indian
+Keto,Spinach and Feta Pie,559,33,83,13,Chinese
+Vegan,Chicken Shawarma,560,34,84,14,Italian
+Paleo,Eggplant Rollatini,561,35,85,15,Indian
+Keto,Meatloaf,562,36,86,16,Chinese
+Vegan,Shrimp Pad Thai,563,37,87,17,Italian
+Paleo,Vegetable Samosa,564,38,88,18,Indian
+Keto,Chicken Pot Pie,565,39,89,19,Chinese
+Vegan,Veggie Quesadilla,566,40,90,20,Italian
+Paleo,Pork Schnitzel,567,41,91,21,Indian
+Keto,Chicken Marsala,568,42,92,22,Chinese
+Vegan,Zoodle Salad,569,43,93,23,Italian
+Paleo,Falafel Salad,570,44,94,24,Indian
+Keto,Thai Green Curry,571,45,95,25,Chinese
+Vegan,BBQ Ribs,572,46,96,26,Italian
+Paleo,Roast Chicken,573,47,97,27,Indian
+Keto,Vegetable Tempura,574,48,98,28,Chinese
+Vegan,Lentil Dahl,575,49,99,29,Italian
+Paleo,Grilled Salmon with Asparagus,476,20,50,10,Indian
+Keto,Avocado and Egg Salad,477,21,51,11,Chinese
+Vegan,Chickpea Curry with Rice,478,22,52,12,Italian
+Paleo,Quinoa Salad with Roasted Veggies,479,23,53,13,Indian
+Keto,Spaghetti Carbonara,480,24,54,14,Chinese
+Vegan,Vegetable Stir Fry,481,25,55,15,Italian
+Paleo,Beef Tacos,482,26,56,16,Indian
+Keto,Lentil Soup,483,27,57,17,Chinese
+Vegan,Chicken Caesar Salad,484,28,58,18,Italian
+Paleo,Vegan Buddha Bowl,485,29,59,19,Indian
+Keto,Shrimp Scampi,486,30,60,20,Chinese
+Vegan,Zucchini Noodles with Pesto,487,31,61,21,Italian
+Paleo,Stuffed Bell Peppers,488,32,62,22,Indian
+Keto,Eggplant Parmesan,489,33,63,23,Chinese
+Vegan,Turkey Meatballs,490,34,64,24,Italian
+Paleo,Black Bean Burrito,491,35,65,25,Indian
+Keto,Cauliflower Fried Rice,492,36,66,26,Chinese
+Vegan,Mushroom Risotto,493,37,67,27,Italian
+Paleo,Greek Salad,494,38,68,28,Indian
+Keto,Tomato Basil Soup,495,39,69,29,Chinese
+Vegan,BBQ Chicken Wrap,496,40,70,10,Italian
+Paleo,Kale and Quinoa Salad,497,41,71,11,Indian
+Keto,Fish Tacos,498,42,72,12,Chinese
+Vegan,Sweet Potato Fries,499,43,73,13,Italian
+Paleo,Cobb Salad,500,44,74,14,Indian
+Keto,Pork Stir Fry,501,45,75,15,Chinese
+Vegan,Sushi Bowl,502,46,76,16,Italian
+Paleo,Baked Ziti,503,47,77,17,Indian
+Keto,Falafel Wrap,504,48,78,18,Chinese
+Vegan,Beef Stroganoff,505,49,79,19,Italian
+Paleo,Butternut Squash Soup,506,20,80,20,Indian
+Keto,Chicken Fajitas,507,21,81,21,Chinese
+Vegan,Tofu Stir Fry,508,22,82,22,Italian
+Paleo,Lamb Kebabs,509,23,83,23,Indian
+Keto,Vegetable Curry,510,24,84,24,Chinese
+Vegan,Buffalo Chicken Salad,511,25,85,25,Italian
+Paleo,Minestrone Soup,512,26,86,26,Indian
+Keto,Egg Salad Sandwich,513,27,87,27,Chinese
+Vegan,Pad Thai,514,28,88,28,Italian
+Paleo,Shrimp and Grits,515,29,89,29,Indian
+Keto,Roasted Brussels Sprouts,516,30,90,10,Chinese
+Vegan,Turkey Chili,517,31,91,11,Italian
+Paleo,Veggie Omelette,518,32,92,12,Indian
+Keto,Caesar Wrap,519,33,93,13,Chinese
+Vegan,Salmon Sushi,520,34,94,14,Italian
+Paleo,Pasta Primavera,521,35,95,15,Indian
+Keto,Chicken Teriyaki,522,36,96,16,Chinese
+Vegan,Quiche Lorraine,523,37,97,17,Italian
+Paleo,Greek Yogurt Parfait,524,38,98,18,Indian
+Keto,Vegetable Lasagna,525,39,99,19,Chinese
+Vegan,Pulled Pork Sandwich,526,40,50,20,Italian
+Paleo,Beet Salad,527,41,51,21,Indian
+Keto,Chicken Noodle Soup,528,42,52,22,Chinese
+Vegan,Mango Salsa Chicken,529,43,53,23,Italian
+Paleo,Ratatouille,530,44,54,24,Indian
+Keto,Blackened Fish,531,45,55,25,Chinese
+Vegan,Spinach Salad,532,46,56,26,Italian
+Paleo,Lobster Roll,533,47,57,27,Indian
+Keto,Veggie Burger,534,48,58,28,Chinese
+Vegan,Chicken Alfredo,535,49,59,29,Italian
+Paleo,Stuffed Mushrooms,536,20,60,10,Indian
+Keto,Clam Chowder,537,21,61,11,Chinese
+Vegan,Chicken Curry,538,22,62,12,Italian
+Paleo,Grilled Cheese Sandwich,539,23,63,13,Indian
+Keto,Tuna Salad,540,24,64,14,Chinese
+Vegan,Beef Burger,541,25,65,15,Italian
+Paleo,Vegetable Paella,542,26,66,16,Indian
+Keto,Shrimp Cocktail,543,27,67,17,Chinese
+Vegan,Tom Yum Soup,544,28,68,18,Italian
+Paleo,Pulled Chicken Tacos,545,29,69,19,Indian
+Keto,Cauliflower Pizza,546,30,70,20,Chinese
+Vegan,Beef and Broccoli,547,31,71,21,Italian
+Paleo,Fish and Chips,548,32,72,22,Indian
+Keto,Veggie Stir Fry,549,33,73,23,Chinese
+Vegan,Chicken Parmesan,550,34,74,24,Italian
+Paleo,Roast Beef Sandwich,551,35,75,25,Indian
+Keto,French Onion Soup,552,36,76,26,Chinese
+Vegan,Vegetable Frittata,553,37,77,27,Italian
+Paleo,Pork Carnitas,554,38,78,28,Indian
+Keto,Caprese Salad,555,39,79,29,Chinese
+Vegan,Baked Salmon,556,40,80,10,Italian
+Paleo,Chili Con Carne,557,41,81,11,Indian
+Keto,Sweet and Sour Chicken,558,42,82,12,Chinese
+Vegan,Spinach and Feta Pie,559,43,83,13,Italian
+Paleo,Chicken Shawarma,560,44,84,14,Indian
+Keto,Eggplant Rollatini,561,45,85,15,Chinese
+Vegan,Meatloaf,562,46,86,16,Italian
+Paleo,Shrimp Pad Thai,563,47,87,17,Indian
+Keto,Vegetable Samosa,564,48,88,18,Chinese
+Vegan,Chicken Pot Pie,565,49,89,19,Italian
+Paleo,Veggie Quesadilla,566,20,90,20,Indian
+Keto,Pork Schnitzel,567,21,91,21,Chinese
+Vegan,Chicken Marsala,568,22,92,22,Italian
+Paleo,Zoodle Salad,569,23,93,23,Indian
+Keto,Falafel Salad,570,24,94,24,Chinese
+Vegan,Thai Green Curry,571,25,95,25,Italian
+Paleo,BBQ Ribs,572,26,96,26,Indian
+Keto,Roast Chicken,573,27,97,27,Chinese
+Vegan,Vegetable Tempura,574,28,98,28,Italian
+Paleo,Lentil Dahl,575,29,99,29,Indian
+Keto,Grilled Salmon with Asparagus,476,30,50,10,Chinese
+Vegan,Avocado and Egg Salad,477,31,51,11,Italian
+Paleo,Chickpea Curry with Rice,478,32,52,12,Indian
+Keto,Quinoa Salad with Roasted Veggies,479,33,53,13,Chinese
+Vegan,Spaghetti Carbonara,480,34,54,14,Italian
+Paleo,Vegetable Stir Fry,481,35,55,15,Indian
+Keto,Beef Tacos,482,36,56,16,Chinese
+Vegan,Lentil Soup,483,37,57,17,Italian
+Paleo,Chicken Caesar Salad,484,38,58,18,Indian
+Keto,Vegan Buddha Bowl,485,39,59,19,Chinese
+Vegan,Shrimp Scampi,486,40,60,20,Italian
+Paleo,Zucchini Noodles with Pesto,487,41,61,21,Indian
+Keto,Stuffed Bell Peppers,488,42,62,22,Chinese
+Vegan,Eggplant Parmesan,489,43,63,23,Italian
+Paleo,Turkey Meatballs,490,44,64,24,Indian
+Keto,Black Bean Burrito,491,45,65,25,Chinese
+Vegan,Cauliflower Fried Rice,492,46,66,26,Italian
+Paleo,Mushroom Risotto,493,47,67,27,Indian
+Keto,Greek Salad,494,48,68,28,Chinese
+Vegan,Tomato Basil Soup,495,49,69,29,Italian
+Paleo,BBQ Chicken Wrap,496,20,70,10,Indian
+Keto,Kale and Quinoa Salad,497,21,71,11,Chinese
+Vegan,Fish Tacos,498,22,72,12,Italian
+Paleo,Sweet Potato Fries,499,23,73,13,Indian
+Keto,Cobb Salad,500,24,74,14,Chinese
+Vegan,Pork Stir Fry,501,25,75,15,Italian
+Paleo,Sushi Bowl,502,26,76,16,Indian
+Keto,Baked Ziti,503,27,77,17,Chinese
+Vegan,Falafel Wrap,504,28,78,18,Italian
+Paleo,Beef Stroganoff,505,29,79,19,Indian
+Keto,Butternut Squash Soup,506,30,80,20,Chinese
+Vegan,Chicken Fajitas,507,31,81,21,Italian
+Paleo,Tofu Stir Fry,508,32,82,22,Indian
+Keto,Lamb Kebabs,509,33,83,23,Chinese
+Vegan,Vegetable Curry,510,34,84,24,Italian
+Paleo,Buffalo Chicken Salad,511,35,85,25,Indian
+Keto,Minestrone Soup,512,36,86,26,Chinese
+Vegan,Egg Salad Sandwich,513,37,87,27,Italian
+Paleo,Pad Thai,514,38,88,28,Indian
+Keto,Shrimp and Grits,515,39,89,29,Chinese
+Vegan,Roasted Brussels Sprouts,516,40,90,10,Italian
+Paleo,Turkey Chili,517,41,91,11,Indian
+Keto,Veggie Omelette,518,42,92,12,Chinese
+Vegan,Caesar Wrap,519,43,93,13,Italian
+Paleo,Salmon Sushi,520,44,94,14,Indian
+Keto,Pasta Primavera,521,45,95,15,Chinese
+Vegan,Chicken Teriyaki,522,46,96,16,Italian
+Paleo,Quiche Lorraine,523,47,97,17,Indian
+Keto,Greek Yogurt Parfait,524,48,98,18,Chinese
+Vegan,Vegetable Lasagna,525,49,99,19,Italian
+Paleo,Pulled Pork Sandwich,526,20,50,20,Indian
+Keto,Beet Salad,527,21,51,21,Chinese
+Vegan,Chicken Noodle Soup,528,22,52,22,Italian
+Paleo,Mango Salsa Chicken,529,23,53,23,Indian
+Keto,Ratatouille,530,24,54,24,Chinese
+Vegan,Blackened Fish,531,25,55,25,Italian
+Paleo,Spinach Salad,532,26,56,26,Indian
+Keto,Lobster Roll,533,27,57,27,Chinese
+Vegan,Veggie Burger,534,28,58,28,Italian
+Paleo,Chicken Alfredo,535,29,59,29,Indian
+Keto,Stuffed Mushrooms,536,30,60,10,Chinese
+Vegan,Clam Chowder,537,31,61,11,Italian
+Paleo,Chicken Curry,538,32,62,12,Indian
+Keto,Grilled Cheese Sandwich,539,33,63,13,Chinese
+Vegan,Tuna Salad,540,34,64,14,Italian
+Paleo,Beef Burger,541,35,65,15,Indian
+Keto,Vegetable Paella,542,36,66,16,Chinese
+Vegan,Shrimp Cocktail,543,37,67,17,Italian
+Paleo,Tom Yum Soup,544,38,68,18,Indian
+Keto,Pulled Chicken Tacos,545,39,69,19,Chinese
+Vegan,Cauliflower Pizza,546,40,70,20,Italian
+Paleo,Beef and Broccoli,547,41,71,21,Indian
+Keto,Fish and Chips,548,42,72,22,Chinese
+Vegan,Veggie Stir Fry,549,43,73,23,Italian
+Paleo,Chicken Parmesan,550,44,74,24,Indian
+Keto,Roast Beef Sandwich,551,45,75,25,Chinese
+Vegan,French Onion Soup,552,46,76,26,Italian
+Paleo,Vegetable Frittata,553,47,77,27,Indian
+Keto,Pork Carnitas,554,48,78,28,Chinese
+Vegan,Caprese Salad,555,49,79,29,Italian
+Paleo,Baked Salmon,556,20,80,10,Indian
+Keto,Chili Con Carne,557,21,81,11,Chinese
+Vegan,Sweet and Sour Chicken,558,22,82,12,Italian
+Paleo,Spinach and Feta Pie,559,23,83,13,Indian
+Keto,Chicken Shawarma,560,24,84,14,Chinese
+Vegan,Eggplant Rollatini,561,25,85,15,Italian
+Paleo,Meatloaf,562,26,86,16,Indian
+Keto,Shrimp Pad Thai,563,27,87,17,Chinese
+Vegan,Vegetable Samosa,564,28,88,18,Italian
+Paleo,Chicken Pot Pie,565,29,89,19,Indian
+Keto,Veggie Quesadilla,566,30,90,20,Chinese
+Vegan,Pork Schnitzel,567,31,91,21,Italian
+Paleo,Chicken Marsala,568,32,92,22,Indian
+Keto,Zoodle Salad,569,33,93,23,Chinese
+Vegan,Falafel Salad,570,34,94,24,Italian
+Paleo,Thai Green Curry,571,35,95,25,Indian
+Keto,BBQ Ribs,572,36,96,26,Chinese
+Vegan,Roast Chicken,573,37,97,27,Italian
+Paleo,Vegetable Tempura,574,38,98,28,Indian
+Keto,Lentil Dahl,575,39,99,29,Chinese
+Vegan,Grilled Salmon with Asparagus,476,40,50,10,Italian
+Paleo,Avocado and Egg Salad,477,41,51,11,Indian
+Keto,Chickpea Curry with Rice,478,42,52,12,Chinese
+Vegan,Quinoa Salad with Roasted Veggies,479,43,53,13,Italian
+Paleo,Spaghetti Carbonara,480,44,54,14,Indian
+Keto,Vegetable Stir Fry,481,45,55,15,Chinese
+Vegan,Beef Tacos,482,46,56,16,Italian
+Paleo,Lentil Soup,483,47,57,17,Indian
+Keto,Chicken Caesar Salad,484,48,58,18,Chinese
+Vegan,Vegan Buddha Bowl,485,49,59,19,Italian
+Paleo,Shrimp Scampi,486,20,60,20,Indian
+Keto,Zucchini Noodles with Pesto,487,21,61,21,Chinese
+Vegan,Stuffed Bell Peppers,488,22,62,22,Italian
+Paleo,Eggplant Parmesan,489,23,63,23,Indian
+Keto,Turkey Meatballs,490,24,64,24,Chinese
+Vegan,Black Bean Burrito,491,25,65,25,Italian
+Paleo,Cauliflower Fried Rice,492,26,66,26,Indian
+Keto,Mushroom Risotto,493,27,67,27,Chinese
+Vegan,Greek Salad,494,28,68,28,Italian
+Paleo,Tomato Basil Soup,495,29,69,29,Indian
+Keto,BBQ Chicken Wrap,496,30,70,10,Chinese
+Vegan,Kale and Quinoa Salad,497,31,71,11,Italian
+Paleo,Fish Tacos,498,32,72,12,Indian
+Keto,Sweet Potato Fries,499,33,73,13,Chinese
+Vegan,Cobb Salad,500,34,74,14,Italian
+Paleo,Pork Stir Fry,501,35,75,15,Indian
+Keto,Sushi Bowl,502,36,76,16,Chinese
+Vegan,Baked Ziti,503,37,77,17,Italian
+Paleo,Falafel Wrap,504,38,78,18,Indian
+Keto,Beef Stroganoff,505,39,79,19,Chinese
+Vegan,Butternut Squash Soup,506,40,80,20,Italian
+Paleo,Chicken Fajitas,507,41,81,21,Indian
+Keto,Tofu Stir Fry,508,42,82,22,Chinese
+Vegan,Lamb Kebabs,509,43,83,23,Italian
+Paleo,Vegetable Curry,510,44,84,24,Indian
+Keto,Buffalo Chicken Salad,511,45,85,25,Chinese
+Vegan,Minestrone Soup,512,46,86,26,Italian
+Paleo,Egg Salad Sandwich,513,47,87,27,Indian
+Keto,Pad Thai,514,48,88,28,Chinese
+Vegan,Shrimp and Grits,515,49,89,29,Italian
+Paleo,Roasted Brussels Sprouts,516,20,90,10,Indian
+Keto,Turkey Chili,517,21,91,11,Chinese
+Vegan,Veggie Omelette,518,22,92,12,Italian
+Paleo,Caesar Wrap,519,23,93,13,Indian
+Keto,Salmon Sushi,520,24,94,14,Chinese
+Vegan,Pasta Primavera,521,25,95,15,Italian
+Paleo,Chicken Teriyaki,522,26,96,16,Indian
+Keto,Quiche Lorraine,523,27,97,17,Chinese
+Vegan,Greek Yogurt Parfait,524,28,98,18,Italian
+Paleo,Vegetable Lasagna,525,29,99,19,Indian
+Keto,Pulled Pork Sandwich,526,30,50,20,Chinese
+Vegan,Beet Salad,527,31,51,21,Italian
+Paleo,Chicken Noodle Soup,528,32,52,22,Indian
+Keto,Mango Salsa Chicken,529,33,53,23,Chinese
+Vegan,Ratatouille,530,34,54,24,Italian
+Paleo,Blackened Fish,531,35,55,25,Indian
+Keto,Spinach Salad,532,36,56,26,Chinese
+Vegan,Lobster Roll,533,37,57,27,Italian
+Paleo,Veggie Burger,534,38,58,28,Indian
+Keto,Chicken Alfredo,535,39,59,29,Chinese
+Vegan,Stuffed Mushrooms,536,40,60,10,Italian
+Paleo,Clam Chowder,537,41,61,11,Indian
+Keto,Chicken Curry,538,42,62,12,Chinese
+Vegan,Grilled Cheese Sandwich,539,43,63,13,Italian
+Paleo,Tuna Salad,540,44,64,14,Indian
+Keto,Beef Burger,541,45,65,15,Chinese
+Vegan,Vegetable Paella,542,46,66,16,Italian
+Paleo,Shrimp Cocktail,543,47,67,17,Indian
+Keto,Tom Yum Soup,544,48,68,18,Chinese
+Vegan,Pulled Chicken Tacos,545,49,69,19,Italian
+Paleo,Cauliflower Pizza,546,20,70,20,Indian
+Keto,Beef and Broccoli,547,21,71,21,Chinese
+Vegan,Fish and Chips,548,22,72,22,Italian
+Paleo,Veggie Stir Fry,549,23,73,23,Indian
+Keto,Chicken Parmesan,550,24,74,24,Chinese
+Vegan,Roast Beef Sandwich,551,25,75,25,Italian
+Paleo,French Onion Soup,552,26,76,26,Indian
+Keto,Vegetable Frittata,553,27,77,27,Chinese
+Vegan,Pork Carnitas,554,28,78,28,Italian
+Paleo,Caprese Salad,555,29,79,29,Indian
+Keto,Baked Salmon,556,30,80,10,Chinese
+Vegan,Chili Con Carne,557,31,81,11,Italian
+Paleo,Sweet and Sour Chicken,558,32,82,12,Indian
+Keto,Spinach and Feta Pie,559,33,83,13,Chinese
+Vegan,Chicken Shawarma,560,34,84,14,Italian
+Paleo,Eggplant Rollatini,561,35,85,15,Indian
+Keto,Meatloaf,562,36,86,16,Chinese
+Vegan,Shrimp Pad Thai,563,37,87,17,Italian
+Paleo,Vegetable Samosa,564,38,88,18,Indian
+Keto,Chicken Pot Pie,565,39,89,19,Chinese
+Vegan,Veggie Quesadilla,566,40,90,20,Italian
+Paleo,Pork Schnitzel,567,41,91,21,Indian
+Keto,Chicken Marsala,568,42,92,22,Chinese
+Vegan,Zoodle Salad,569,43,93,23,Italian
+Paleo,Falafel Salad,570,44,94,24,Indian
+Keto,Thai Green Curry,571,45,95,25,Chinese
+Vegan,BBQ Ribs,572,46,96,26,Italian
+Paleo,Roast Chicken,573,47,97,27,Indian
+Keto,Vegetable Tempura,574,48,98,28,Chinese
+Vegan,Lentil Dahl,575,49,99,29,Italian
+Paleo,Grilled Salmon with Asparagus,476,20,50,10,Indian
+Keto,Avocado and Egg Salad,477,21,51,11,Chinese
+Vegan,Chickpea Curry with Rice,478,22,52,12,Italian
+Paleo,Quinoa Salad with Roasted Veggies,479,23,53,13,Indian
+Keto,Spaghetti Carbonara,480,24,54,14,Chinese
+Vegan,Vegetable Stir Fry,481,25,55,15,Italian
+Paleo,Beef Tacos,482,26,56,16,Indian
+Keto,Lentil Soup,483,27,57,17,Chinese
+Vegan,Chicken Caesar Salad,484,28,58,18,Italian
+Paleo,Vegan Buddha Bowl,485,29,59,19,Indian
+Keto,Shrimp Scampi,486,30,60,20,Chinese
+Vegan,Zucchini Noodles with Pesto,487,31,61,21,Italian
+Paleo,Stuffed Bell Peppers,488,32,62,22,Indian
+Keto,Eggplant Parmesan,489,33,63,23,Chinese
+Vegan,Turkey Meatballs,490,34,64,24,Italian
+Paleo,Black Bean Burrito,491,35,65,25,Indian
+Keto,Cauliflower Fried Rice,492,36,66,26,Chinese
+Vegan,Mushroom Risotto,493,37,67,27,Italian
+Paleo,Greek Salad,494,38,68,28,Indian
+Keto,Tomato Basil Soup,495,39,69,29,Chinese
+Vegan,BBQ Chicken Wrap,496,40,70,10,Italian
+Paleo,Kale and Quinoa Salad,497,41,71,11,Indian
+Keto,Fish Tacos,498,42,72,12,Chinese
+Vegan,Sweet Potato Fries,499,43,73,13,Italian
+Paleo,Cobb Salad,500,44,74,14,Indian
+Keto,Pork Stir Fry,501,45,75,15,Chinese
+Vegan,Sushi Bowl,502,46,76,16,Italian
+Paleo,Baked Ziti,503,47,77,17,Indian
+Keto,Falafel Wrap,504,48,78,18,Chinese
+Vegan,Beef Stroganoff,505,49,79,19,Italian
+Paleo,Butternut Squash Soup,506,20,80,20,Indian
+Keto,Chicken Fajitas,507,21,81,21,Chinese
+Vegan,Tofu Stir Fry,508,22,82,22,Italian
+Paleo,Lamb Kebabs,509,23,83,23,Indian
+Keto,Vegetable Curry,510,24,84,24,Chinese
+Vegan,Buffalo Chicken Salad,511,25,85,25,Italian
+Paleo,Minestrone Soup,512,26,86,26,Indian
+Keto,Egg Salad Sandwich,513,27,87,27,Chinese
+Vegan,Pad Thai,514,28,88,28,Italian
+Paleo,Shrimp and Grits,515,29,89,29,Indian
+Keto,Roasted Brussels Sprouts,516,30,90,10,Chinese
+Vegan,Turkey Chili,517,31,91,11,Italian
+Paleo,Veggie Omelette,518,32,92,12,Indian
+Keto,Caesar Wrap,519,33,93,13,Chinese
+Vegan,Salmon Sushi,520,34,94,14,Italian
+Paleo,Pasta Primavera,521,35,95,15,Indian
+Keto,Chicken Teriyaki,522,36,96,16,Chinese
+Vegan,Quiche Lorraine,523,37,97,17,Italian
+Paleo,Greek Yogurt Parfait,524,38,98,18,Indian
+Keto,Vegetable Lasagna,525,39,99,19,Chinese
+Vegan,Pulled Pork Sandwich,526,40,50,20,Italian
+Paleo,Beet Salad,527,41,51,21,Indian
+Keto,Chicken Noodle Soup,528,42,52,22,Chinese
+Vegan,Mango Salsa Chicken,529,43,53,23,Italian
+Paleo,Ratatouille,530,44,54,24,Indian
+Keto,Blackened Fish,531,45,55,25,Chinese
+Vegan,Spinach Salad,532,46,56,26,Italian
+Paleo,Lobster Roll,533,47,57,27,Indian
+Keto,Veggie Burger,534,48,58,28,Chinese
+Vegan,Chicken Alfredo,535,49,59,29,Italian
+Paleo,Stuffed Mushrooms,536,20,60,10,Indian
+Keto,Clam Chowder,537,21,61,11,Chinese
+Vegan,Chicken Curry,538,22,62,12,Italian
+Paleo,Grilled Cheese Sandwich,539,23,63,13,Indian
+Keto,Tuna Salad,540,24,64,14,Chinese
+Vegan,Beef Burger,541,25,65,15,Italian
+Paleo,Vegetable Paella,542,26,66,16,Indian
+Keto,Shrimp Cocktail,543,27,67,17,Chinese
+Vegan,Tom Yum Soup,544,28,68,18,Italian
+Paleo,Pulled Chicken Tacos,545,29,69,19,Indian
+Keto,Cauliflower Pizza,546,30,70,20,Chinese
+Vegan,Beef and Broccoli,547,31,71,21,Italian
+Paleo,Fish and Chips,548,32,72,22,Indian
+Keto,Veggie Stir Fry,549,33,73,23,Chinese
+Vegan,Chicken Parmesan,550,34,74,24,Italian
+Paleo,Roast Beef Sandwich,551,35,75,25,Indian
+Keto,French Onion Soup,552,36,76,26,Chinese
+Vegan,Vegetable Frittata,553,37,77,27,Italian
+Paleo,Pork Carnitas,554,38,78,28,Indian
+Keto,Caprese Salad,555,39,79,29,Chinese
+Vegan,Baked Salmon,556,40,80,10,Italian
+Paleo,Chili Con Carne,557,41,81,11,Indian
+Keto,Sweet and Sour Chicken,558,42,82,12,Chinese
+Vegan,Spinach and Feta Pie,559,43,83,13,Italian
+Paleo,Chicken Shawarma,560,44,84,14,Indian
+Keto,Eggplant Rollatini,561,45,85,15,Chinese
+Vegan,Meatloaf,562,46,86,16,Italian
+Paleo,Shrimp Pad Thai,563,47,87,17,Indian
+Keto,Vegetable Samosa,564,48,88,18,Chinese
+Vegan,Chicken Pot Pie,565,49,89,19,Italian
+Paleo,Veggie Quesadilla,566,20,90,20,Indian
+Keto,Pork Schnitzel,567,21,91,21,Chinese
+Vegan,Chicken Marsala,568,22,92,22,Italian
+Paleo,Zoodle Salad,569,23,93,23,Indian
+Keto,Falafel Salad,570,24,94,24,Chinese
+Vegan,Thai Green Curry,571,25,95,25,Italian
+Paleo,BBQ Ribs,572,26,96,26,Indian
+Keto,Roast Chicken,573,27,97,27,Chinese
+Vegan,Vegetable Tempura,574,28,98,28,Italian
+Paleo,Lentil Dahl,575,29,99,29,Indian
+Keto,Grilled Salmon with Asparagus,476,30,50,10,Chinese
+Vegan,Avocado and Egg Salad,477,31,51,11,Italian
+Paleo,Chickpea Curry with Rice,478,32,52,12,Indian
+Keto,Quinoa Salad with Roasted Veggies,479,33,53,13,Chinese
+Vegan,Spaghetti Carbonara,480,34,54,14,Italian
+Paleo,Vegetable Stir Fry,481,35,55,15,Indian
+Keto,Beef Tacos,482,36,56,16,Chinese
+Vegan,Lentil Soup,483,37,57,17,Italian
+Paleo,Chicken Caesar Salad,484,38,58,18,Indian
+Keto,Vegan Buddha Bowl,485,39,59,19,Chinese
+Vegan,Shrimp Scampi,486,40,60,20,Italian
+Paleo,Zucchini Noodles with Pesto,487,41,61,21,Indian
+Keto,Stuffed Bell Peppers,488,42,62,22,Chinese
+Vegan,Eggplant Parmesan,489,43,63,23,Italian
+Paleo,Turkey Meatballs,490,44,64,24,Indian
+Keto,Black Bean Burrito,491,45,65,25,Chinese
+Vegan,Cauliflower Fried Rice,492,46,66,26,Italian
+Paleo,Mushroom Risotto,493,47,67,27,Indian
+Keto,Greek Salad,494,48,68,28,Chinese
+Vegan,Tomato Basil Soup,495,49,69,29,Italian
+Paleo,BBQ Chicken Wrap,496,20,70,10,Indian
+Keto,Kale and Quinoa Salad,497,21,71,11,Chinese
+Vegan,Fish Tacos,498,22,72,12,Italian
+Paleo,Sweet Potato Fries,499,23,73,13,Indian
+Keto,Cobb Salad,500,24,74,14,Chinese
+Vegan,Pork Stir Fry,501,25,75,15,Italian
+Paleo,Sushi Bowl,502,26,76,16,Indian
+Keto,Baked Ziti,503,27,77,17,Chinese
+Vegan,Falafel Wrap,504,28,78,18,Italian
+Paleo,Beef Stroganoff,505,29,79,19,Indian
+Keto,Butternut Squash Soup,506,30,80,20,Chinese
+Vegan,Chicken Fajitas,507,31,81,21,Italian
+Paleo,Tofu Stir Fry,508,32,82,22,Indian
+Keto,Lamb Kebabs,509,33,83,23,Chinese
+Vegan,Vegetable Curry,510,34,84,24,Italian
+Paleo,Buffalo Chicken Salad,511,35,85,25,Indian
+Keto,Minestrone Soup,512,36,86,26,Chinese
+Vegan,Egg Salad Sandwich,513,37,87,27,Italian
+Paleo,Pad Thai,514,38,88,28,Indian
+Keto,Shrimp and Grits,515,39,89,29,Chinese
+Vegan,Roasted Brussels Sprouts,516,40,90,10,Italian
+Paleo,Turkey Chili,517,41,91,11,Indian
+Keto,Veggie Omelette,518,42,92,12,Chinese
+Vegan,Caesar Wrap,519,43,93,13,Italian
+Paleo,Salmon Sushi,520,44,94,14,Indian
+Keto,Pasta Primavera,521,45,95,15,Chinese
+Vegan,Chicken Teriyaki,522,46,96,16,Italian
+Paleo,Quiche Lorraine,523,47,97,17,Indian
+Keto,Greek Yogurt Parfait,524,48,98,18,Chinese
+Vegan,Vegetable Lasagna,525,49,99,19,Italian
+Paleo,Pulled Pork Sandwich,526,20,50,20,Indian
+Keto,Beet Salad,527,21,51,21,Chinese
+Vegan,Chicken Noodle Soup,528,22,52,22,Italian
+Paleo,Mango Salsa Chicken,529,23,53,23,Indian
+Keto,Ratatouille,530,24,54,24,Chinese
+Vegan,Blackened Fish,531,25,55,25,Italian
+Paleo,Spinach Salad,532,26,56,26,Indian
+Keto,Lobster Roll,533,27,57,27,Chinese
+Vegan,Veggie Burger,534,28,58,28,Italian
+Paleo,Chicken Alfredo,535,29,59,29,Indian
+Keto,Stuffed Mushrooms,536,30,60,10,Chinese
+Vegan,Clam Chowder,537,31,61,11,Italian
+Paleo,Chicken Curry,538,32,62,12,Indian
+Keto,Grilled Cheese Sandwich,539,33,63,13,Chinese
+Vegan,Tuna Salad,540,34,64,14,Italian
+Paleo,Beef Burger,541,35,65,15,Indian
+Keto,Vegetable Paella,542,36,66,16,Chinese
+Vegan,Shrimp Cocktail,543,37,67,17,Italian
+Paleo,Tom Yum Soup,544,38,68,18,Indian
+Keto,Pulled Chicken Tacos,545,39,69,19,Chinese
+Vegan,Cauliflower Pizza,546,40,70,20,Italian
+Paleo,Beef and Broccoli,547,41,71,21,Indian
+Keto,Fish and Chips,548,42,72,22,Chinese
+Vegan,Veggie Stir Fry,549,43,73,23,Italian
+Paleo,Chicken Parmesan,550,44,74,24,Indian
+Keto,Roast Beef Sandwich,551,45,75,25,Chinese
+Vegan,French Onion Soup,552,46,76,26,Italian
+Paleo,Vegetable Frittata,553,47,77,27,Indian
+Keto,Pork Carnitas,554,48,78,28,Chinese
+Vegan,Caprese Salad,555,49,79,29,Italian
+Paleo,Baked Salmon,556,20,80,10,Indian
+Keto,Chili Con Carne,557,21,81,11,Chinese
+Vegan,Sweet and Sour Chicken,558,22,82,12,Italian
+Paleo,Spinach and Feta Pie,559,23,83,13,Indian
+Keto,Chicken Shawarma,560,24,84,14,Chinese
+Vegan,Eggplant Rollatini,561,25,85,15,Italian
+Paleo,Meatloaf,562,26,86,16,Indian
+Keto,Shrimp Pad Thai,563,27,87,17,Chinese
+Vegan,Vegetable Samosa,564,28,88,18,Italian
+Paleo,Chicken Pot Pie,565,29,89,19,Indian
+Keto,Veggie Quesadilla,566,30,90,20,Chinese
+Vegan,Pork Schnitzel,567,31,91,21,Italian
+Paleo,Chicken Marsala,568,32,92,22,Indian
+Keto,Zoodle Salad,569,33,93,23,Chinese
+Vegan,Falafel Salad,570,34,94,24,Italian
+Paleo,Thai Green Curry,571,35,95,25,Indian
+Keto,BBQ Ribs,572,36,96,26,Chinese
+Vegan,Roast Chicken,573,37,97,27,Italian
+Paleo,Vegetable Tempura,574,38,98,28,Indian
+Keto,Lentil Dahl,575,39,99,29,Chinese
+Vegan,Grilled Salmon with Asparagus,476,40,50,10,Italian
+Paleo,Avocado and Egg Salad,477,41,51,11,Indian
+Keto,Chickpea Curry with Rice,478,42,52,12,Chinese
+Vegan,Quinoa Salad with Roasted Veggies,479,43,53,13,Italian
+Paleo,Spaghetti Carbonara,480,44,54,14,Indian
+Keto,Vegetable Stir Fry,481,45,55,15,Chinese
+Vegan,Beef Tacos,482,46,56,16,Italian
+Paleo,Lentil Soup,483,47,57,17,Indian
+Keto,Chicken Caesar Salad,484,48,58,18,Chinese
+Vegan,Vegan Buddha Bowl,485,49,59,19,Italian
+Paleo,Shrimp Scampi,486,20,60,20,Indian
+Keto,Zucchini Noodles with Pesto,487,21,61,21,Chinese
+Vegan,Stuffed Bell Peppers,488,22,62,22,Italian
+Paleo,Eggplant Parmesan,489,23,63,23,Indian
+Keto,Turkey Meatballs,490,24,64,24,Chinese
+Vegan,Black Bean Burrito,491,25,65,25,Italian
+Paleo,Cauliflower Fried Rice,492,26,66,26,Indian
+Keto,Mushroom Risotto,493,27,67,27,Chinese
+Vegan,Greek Salad,494,28,68,28,Italian
+Paleo,Tomato Basil Soup,495,29,69,29,Indian
+Keto,BBQ Chicken Wrap,496,30,70,10,Chinese
+Vegan,Kale and Quinoa Salad,497,31,71,11,Italian
+Paleo,Fish Tacos,498,32,72,12,Indian
+Keto,Sweet Potato Fries,499,33,73,13,Chinese
+Vegan,Cobb Salad,500,34,74,14,Italian
+Paleo,Pork Stir Fry,501,35,75,15,Indian
+Keto,Sushi Bowl,502,36,76,16,Chinese
+Vegan,Baked Ziti,503,37,77,17,Italian
+Paleo,Falafel Wrap,504,38,78,18,Indian
+Keto,Beef Stroganoff,505,39,79,19,Chinese
+Vegan,Butternut Squash Soup,506,40,80,20,Italian
+Paleo,Chicken Fajitas,507,41,81,21,Indian
+Keto,Tofu Stir Fry,508,42,82,22,Chinese
+Vegan,Lamb Kebabs,509,43,83,23,Italian
+Paleo,Vegetable Curry,510,44,84,24,Indian
+Keto,Buffalo Chicken Salad,511,45,85,25,Chinese
+Vegan,Minestrone Soup,512,46,86,26,Italian
+Paleo,Egg Salad Sandwich,513,47,87,27,Indian
+Keto,Pad Thai,514,48,88,28,Chinese
+Vegan,Shrimp and Grits,515,49,89,29,Italian
+Paleo,Roasted Brussels Sprouts,516,20,90,10,Indian
+Keto,Turkey Chili,517,21,91,11,Chinese
+Vegan,Veggie Omelette,518,22,92,12,Italian
+Paleo,Caesar Wrap,519,23,93,13,Indian
+Keto,Salmon Sushi,520,24,94,14,Chinese
+Vegan,Pasta Primavera,521,25,95,15,Italian
+Paleo,Chicken Teriyaki,522,26,96,16,Indian
+Keto,Quiche Lorraine,523,27,97,17,Chinese
+Vegan,Greek Yogurt Parfait,524,28,98,18,Italian
+Paleo,Vegetable Lasagna,525,29,99,19,Indian
+Keto,Pulled Pork Sandwich,526,30,50,20,Chinese
+Vegan,Beet Salad,527,31,51,21,Italian
+Paleo,Chicken Noodle Soup,528,32,52,22,Indian
+Keto,Mango Salsa Chicken,529,33,53,23,Chinese
+Vegan,Ratatouille,530,34,54,24,Italian
+Paleo,Blackened Fish,531,35,55,25,Indian
+Keto,Spinach Salad,532,36,56,26,Chinese
+Vegan,Lobster Roll,533,37,57,27,Italian
+Paleo,Veggie Burger,534,38,58,28,Indian
+Keto,Chicken Alfredo,535,39,59,29,Chinese
+Vegan,Stuffed Mushrooms,536,40,60,10,Italian
+Paleo,Clam Chowder,537,41,61,11,Indian
+Keto,Chicken Curry,538,42,62,12,Chinese
+Vegan,Grilled Cheese Sandwich,539,43,63,13,Italian
+Paleo,Tuna Salad,540,44,64,14,Indian
+Keto,Beef Burger,541,45,65,15,Chinese
+Vegan,Vegetable Paella,542,46,66,16,Italian
+Paleo,Shrimp Cocktail,543,47,67,17,Indian
+Keto,Tom Yum Soup,544,48,68,18,Chinese
+Vegan,Pulled Chicken Tacos,545,49,69,19,Italian
+Paleo,Cauliflower Pizza,546,20,70,20,Indian
+Keto,Beef and Broccoli,547,21,71,21,Chinese
+Vegan,Fish and Chips,548,22,72,22,Italian
+Paleo,Veggie Stir Fry,549,23,73,23,Indian
+Keto,Chicken Parmesan,550,24,74,24,Chinese
+Vegan,Roast Beef Sandwich,551,25,75,25,Italian
+Paleo,French Onion Soup,552,26,76,26,Indian
+Keto,Vegetable Frittata,553,27,77,27,Chinese
+Vegan,Pork Carnitas,554,28,78,28,Italian
+Paleo,Caprese Salad,555,29,79,29,Indian
+Keto,Baked Salmon,556,30,80,10,Chinese
+Vegan,Chili Con Carne,557,31,81,11,Italian
+Paleo,Sweet and Sour Chicken,558,32,82,12,Indian
+Keto,Spinach and Feta Pie,559,33,83,13,Chinese
+Vegan,Chicken Shawarma,560,34,84,14,Italian
+Paleo,Eggplant Rollatini,561,35,85,15,Indian
+Keto,Meatloaf,562,36,86,16,Chinese
+Vegan,Shrimp Pad Thai,563,37,87,17,Italian
+Paleo,Vegetable Samosa,564,38,88,18,Indian
+Keto,Chicken Pot Pie,565,39,89,19,Chinese
+Vegan,Veggie Quesadilla,566,40,90,20,Italian
+Paleo,Pork Schnitzel,567,41,91,21,Indian
+Keto,Chicken Marsala,568,42,92,22,Chinese
+Vegan,Zoodle Salad,569,43,93,23,Italian
+Paleo,Falafel Salad,570,44,94,24,Indian
+Keto,Thai Green Curry,571,45,95,25,Chinese
+Vegan,BBQ Ribs,572,46,96,26,Italian
+Paleo,Roast Chicken,573,47,97,27,Indian
+Keto,Vegetable Tempura,574,48,98,28,Chinese
+Vegan,Lentil Dahl,575,49,99,29,Italian
+Paleo,Grilled Salmon with Asparagus,476,20,50,10,Indian
+Keto,Avocado and Egg Salad,477,21,51,11,Chinese
+Vegan,Chickpea Curry with Rice,478,22,52,12,Italian
+Paleo,Quinoa Salad with Roasted Veggies,479,23,53,13,Indian
+Keto,Spaghetti Carbonara,480,24,54,14,Chinese
+Vegan,Vegetable Stir Fry,481,25,55,15,Italian
+Paleo,Beef Tacos,482,26,56,16,Indian
+Keto,Lentil Soup,483,27,57,17,Chinese
+Vegan,Chicken Caesar Salad,484,28,58,18,Italian
+Paleo,Vegan Buddha Bowl,485,29,59,19,Indian
+Keto,Shrimp Scampi,486,30,60,20,Chinese
+Vegan,Zucchini Noodles with Pesto,487,31,61,21,Italian
+Paleo,Stuffed Bell Peppers,488,32,62,22,Indian
+Keto,Eggplant Parmesan,489,33,63,23,Chinese
+Vegan,Turkey Meatballs,490,34,64,24,Italian
+Paleo,Black Bean Burrito,491,35,65,25,Indian
+Keto,Cauliflower Fried Rice,492,36,66,26,Chinese
+Vegan,Mushroom Risotto,493,37,67,27,Italian
+Paleo,Greek Salad,494,38,68,28,Indian
+Keto,Tomato Basil Soup,495,39,69,29,Chinese
+Vegan,BBQ Chicken Wrap,496,40,70,10,Italian
+Paleo,Kale and Quinoa Salad,497,41,71,11,Indian
+Keto,Fish Tacos,498,42,72,12,Chinese
+Vegan,Sweet Potato Fries,499,43,73,13,Italian
+Paleo,Cobb Salad,500,44,74,14,Indian
+Keto,Pork Stir Fry,501,45,75,15,Chinese
+Vegan,Sushi Bowl,502,46,76,16,Italian
+Paleo,Baked Ziti,503,47,77,17,Indian
+Keto,Falafel Wrap,504,48,78,18,Chinese
+Vegan,Beef Stroganoff,505,49,79,19,Italian
+Paleo,Butternut Squash Soup,506,20,80,20,Indian
+Keto,Chicken Fajitas,507,21,81,21,Chinese
+Vegan,Tofu Stir Fry,508,22,82,22,Italian
+Paleo,Lamb Kebabs,509,23,83,23,Indian
+Keto,Vegetable Curry,510,24,84,24,Chinese
+Vegan,Buffalo Chicken Salad,511,25,85,25,Italian
+Paleo,Minestrone Soup,512,26,86,26,Indian
+Keto,Egg Salad Sandwich,513,27,87,27,Chinese
+Vegan,Pad Thai,514,28,88,28,Italian
+Paleo,Shrimp and Grits,515,29,89,29,Indian
+Keto,Roasted Brussels Sprouts,516,30,90,10,Chinese
+Vegan,Turkey Chili,517,31,91,11,Italian
+Paleo,Veggie Omelette,518,32,92,12,Indian
+Keto,Caesar Wrap,519,33,93,13,Chinese
+Vegan,Salmon Sushi,520,34,94,14,Italian
+Paleo,Pasta Primavera,521,35,95,15,Indian
+Keto,Chicken Teriyaki,522,36,96,16,Chinese
+Vegan,Quiche Lorraine,523,37,97,17,Italian
+Paleo,Greek Yogurt Parfait,524,38,98,18,Indian
+Keto,Vegetable Lasagna,525,39,99,19,Chinese
+Vegan,Pulled Pork Sandwich,526,40,50,20,Italian
+Paleo,Beet Salad,527,41,51,21,Indian
+Keto,Chicken Noodle Soup,528,42,52,22,Chinese
+Vegan,Mango Salsa Chicken,529,43,53,23,Italian
+Paleo,Ratatouille,530,44,54,24,Indian
+Keto,Blackened Fish,531,45,55,25,Chinese
+Vegan,Spinach Salad,532,46,56,26,Italian
+Paleo,Lobster Roll,533,47,57,27,Indian
+Keto,Veggie Burger,534,48,58,28,Chinese
+Vegan,Chicken Alfredo,535,49,59,29,Italian
+Paleo,Stuffed Mushrooms,536,20,60,10,Indian
+Keto,Clam Chowder,537,21,61,11,Chinese
+Vegan,Chicken Curry,538,22,62,12,Italian
+Paleo,Grilled Cheese Sandwich,539,23,63,13,Indian
+Keto,Tuna Salad,540,24,64,14,Chinese
+Vegan,Beef Burger,541,25,65,15,Italian
+Paleo,Vegetable Paella,542,26,66,16,Indian
+Keto,Shrimp Cocktail,543,27,67,17,Chinese
+Vegan,Tom Yum Soup,544,28,68,18,Italian
+Paleo,Pulled Chicken Tacos,545,29,69,19,Indian
+Keto,Cauliflower Pizza,546,30,70,20,Chinese
+Vegan,Beef and Broccoli,547,31,71,21,Italian
+Paleo,Fish and Chips,548,32,72,22,Indian
+Keto,Veggie Stir Fry,549,33,73,23,Chinese
+Vegan,Chicken Parmesan,550,34,74,24,Italian
+Paleo,Roast Beef Sandwich,551,35,75,25,Indian
+Keto,French Onion Soup,552,36,76,26,Chinese
+Vegan,Vegetable Frittata,553,37,77,27,Italian
+Paleo,Pork Carnitas,554,38,78,28,Indian
+Keto,Caprese Salad,555,39,79,29,Chinese
+Vegan,Baked Salmon,556,40,80,10,Italian
+Paleo,Chili Con Carne,557,41,81,11,Indian
+Keto,Sweet and Sour Chicken,558,42,82,12,Chinese
+Vegan,Spinach and Feta Pie,559,43,83,13,Italian
+Paleo,Chicken Shawarma,560,44,84,14,Indian
+Keto,Eggplant Rollatini,561,45,85,15,Chinese
+Vegan,Meatloaf,562,46,86,16,Italian
+Paleo,Shrimp Pad Thai,563,47,87,17,Indian
+Keto,Vegetable Samosa,564,48,88,18,Chinese
+Vegan,Chicken Pot Pie,565,49,89,19,Italian
+Paleo,Veggie Quesadilla,566,20,90,20,Indian
+Keto,Pork Schnitzel,567,21,91,21,Chinese
+Vegan,Chicken Marsala,568,22,92,22,Italian
+Paleo,Zoodle Salad,569,23,93,23,Indian
+Keto,Falafel Salad,570,24,94,24,Chinese
+Vegan,Thai Green Curry,571,25,95,25,Italian
+Paleo,BBQ Ribs,572,26,96,26,Indian
+Keto,Roast Chicken,573,27,97,27,Chinese
+Vegan,Vegetable Tempura,574,28,98,28,Italian
+Paleo,Lentil Dahl,575,29,99,29,Indian
