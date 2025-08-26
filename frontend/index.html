@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI GYM TRAINER</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- MediaPipe Files -->
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/control_utils/control_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/pose/pose.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1 id="headerTitle" title="Back to Dashboard Overview">AI GYM TRAINER</h1>
+        <nav>
+            <button id="logoutBtn" style="display:none;">Logout</button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Auth Choice View -->
+        <section id="authChoiceView" class="view card auth-card" style="display:none;">
+            <h2>Welcome!</h2>
+            <p>Your personal AI fitness and diet companion.</p>
+            <div class="auth-choice-buttons">
+                <button id="showLoginBtnFromChoice" class="auth-choice-button">Login</button>
+                <button id="showRegisterBtnFromChoice" class="auth-choice-button">Register</button>
+            </div>
+            <p id="authChoiceMessage" class="message"></p>
+        </section>
+
+        <!-- Login Form View -->
+        <section id="loginView" class="view card auth-card">
+            <h2>Member Login</h2>
+            <form id="loginForm">
+                <input type="text" id="loginUsername" placeholder="Username" required autocomplete="username"><br>
+                <input type="password" id="loginPassword" placeholder="Password" required autocomplete="current-password"><br>
+                <button type="submit">Login</button>
+            </form>
+            <p>Don't have an account? <button type="button" id="switchToRegisterBtn" class="link-button">Register here</button></p>
+            <p id="loginMessage" class="message"></p>
+        </section>
+
+        <!-- Registration Form View -->
+        <section id="registerView" class="view card auth-card" style="display:none;">
+            <button id="backToLoginFromRegister" class="back-button" title="Back to Login">← Back to Login</button>
+            <h2>Create Account</h2>
+            <form id="registerForm">
+                <input type="text" id="regUsername" placeholder="Username" required autocomplete="new-username"><br>
+                <input type="password" id="regPassword" placeholder="Password (min 6 characters)" required autocomplete="new-password" minlength="6"><br>
+                <select id="regGender" required><option value="">Select Gender</option><option value="male">Male</option><option value="female">Female</option><option value="other">Other</option></select><br>
+                <input type="number" id="regAge" placeholder="Age" required min="12" max="120"><br>
+                <input type="number" id="regHeight" placeholder="Height (cm)" required min="50" max="300" step="0.1"><br>
+                <input type="number" id="regWeight" placeholder="Weight (kg)" required min="20" max="500" step="0.1"><br>
+                <select id="regDietPreference" required><option value="">Diet Preference</option><option value="any">Any</option><option value="vegetarian">Vegetarian</option><option value="vegan">Vegan</option><option value="non-vegetarian">Non-Vegetarian</option></select><br>
+
+                <label for="regPreferredCuisinesContainer">Preferred Cuisines (select any):</label>
+                <div id="regPreferredCuisinesContainer" class="cuisine-options-container">
+                    <!-- Checkboxes will be populated by JS -->
+                </div>
+                <br>
+
+                <select id="regActivityLevel" required><option value="">Activity Level</option><option value="sedentary">Sedentary</option><option value="light">Light</option><option value="moderate">Moderate</option><option value="active">Active</option><option value="very_active">Very Active</option></select><br>
+                <select id="regGoals" required><option value="">Primary Goal</option><option value="weight_loss">Weight Loss</option><option value="muscle_gain">Muscle Gain</option><option value="maintenance">Weight Maintenance</option><option value="endurance">Improve Endurance</option></select><br>
+                <button type="submit">Register</button>
+            </form>
+            <p>Already have an account? <button type="button" id="switchToLoginBtn" class="link-button">Login here</button></p>
+            <p id="registerMessage" class="message"></p>
+        </section>
+
+        <!-- Dashboard Section -->
+        <section id="dashboardSection" class="view" style="display:none;">
+            <div id="dashboardHeader">
+                <h2 class="dashboard-welcome" id="dashboardWelcomeMessage">Welcome, <span id="usernameDisplay">User</span>!</h2>
+                <p id="dashboardApiMessage" class="message" style="color: white; background-color: transparent; text-align:center; margin-top: 5px;"></p>
+            </div>
+
+            <div id="dashboardOverviewPage" class="dashboard-page-active">
+                <div class="dashboard-grid">
+                    <div id="profileCard" class="info-card dashboard-nav-item" data-target-page="profilePage">
+                        <h3>Your Profile & BMI</h3>
+                        <p>BMI: <span id="bmiValue">-</span> (<span id="bmiCategory">-</span>)</p>
+                        <p>Target Calories: <span id="targetCaloriesDisplay">-</span> kcal</p>
+                        <p class="view-details-link">View Full Profile →</p>
+                    </div>
+
+                    <div id="todoCard" class="info-card">
+                        <h3>Today's Focus</h3>
+                        <form id="todoForm">
+                            <input type="text" id="todoInput" placeholder="Add a new task...">
+                            <button type="submit" id="addTodoBtn">Add Task</button>
+                        </form>
+                        <ul id="todoList">
+                            <li>Loading tasks...</li>
+                        </ul>
+                    </div>
+
+                    <div class="info-card dashboard-nav-item" data-target-page="dietPage">
+                        <h3>Weekly Diet Plan</h3>
+                        <p>View your 7-day meal plan.</p>
+                        <p class="view-details-link">View Diet Plan →</p>
+                    </div>
+                     <div class="info-card dashboard-nav-item" data-target-page="workoutsPage">
+                        <h3>Workouts</h3>
+                        <p>Get workout recommendations.</p>
+                        <p class="view-details-link">View Workouts →</p>
+                    </div>
+                    <div class="info-card dashboard-nav-item" data-target-page="posePage">
+                        <h3>Pose Check</h3>
+                        <p>Analyze your exercise form.</p>
+                        <p class="view-details-link">Start Pose Detection →</p>
+                    </div>
+                    <div class="info-card dashboard-nav-item" data-target-page="logsPage">
+                        <h3>Activity Logs</h3>
+                        <p>Review your workout history.</p>
+                        <p class="view-details-link">View Logs →</p>
+                    </div>
+                    <div id="healthTipsCard" class="info-card">
+                        <h3>Stay Healthy!</h3>
+                        <ul>
+                            <li>Aim for 7-9 hours of quality sleep per night.</li>
+                            <li>Manage stress: try meditation, hobbies, or deep breathing.</li>
+                            <li>Stay hydrated: Drink water regularly throughout the day.</li>
+                            <li>Incorporate movement snacks: Short bursts of activity are beneficial.</li>
+                            <li>Listen to your body: Rest and recover when needed.</li>
+                            <li>Focus on whole, unprocessed foods as much as possible.</li>
+                        </ul>
+                    </div>
+                    <!-- Admin Panel Link/Card (Conditional Display in JS) -->
+                    <div id="adminPanelCard" class="info-card dashboard-nav-item" data-target-page="adminPage" style="display:none; background-color: #fff3cd; border-color: #ffeeba;">
+                        <h3>Admin Panel</h3>
+                        <p>Manage users and application settings.</p>
+                        <p class="view-details-link">Go to Admin Panel →</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Container for detailed dashboard pages -->
+            <div id="dashboardDetailContent" style="display:none;">
+                <button id="backToDashboardOverviewBtn" class="back-button">← Back to Dashboard Overview</button>
+
+                <div id="profilePage" class="dashboard-page card info-card-detail">
+                    <div class="profile-header-actions">
+                        <h3>User Profile & BMI Details</h3>
+                        <button id="editProfileBtn" class="action-button">Edit Profile</button>
+                    </div>
+
+                    <form id="editProfileForm" style="display:none;">
+                        <p><strong>Username:</strong> <span id="profileUsernameDisplay">-</span> (Cannot be changed)</p>
+
+                        <label for="editProfileAge">Age:</label>
+                        <input type="number" id="editProfileAge" min="12" max="120" required><br>
+
+                        <label for="editProfileGender">Gender:</label>
+                        <select id="editProfileGender" required><option value="male">Male</option><option value="female">Female</option><option value="other">Other</option></select><br>
+
+                        <label for="editProfileHeight">Height (cm):</label>
+                        <input type="number" id="editProfileHeight" min="50" max="300" step="0.1" required><br>
+
+                        <label for="editProfileWeight">Weight (kg):</label>
+                        <input type="number" id="editProfileWeight" min="20" max="500" step="0.1" required><br>
+
+                        <label for="editProfileDietPref">Diet Preference:</label>
+                        <select id="editProfileDietPref" required><option value="any">Any</option><option value="vegetarian">Vegetarian</option><option value="vegan">Vegan</option><option value="non-vegetarian">Non-Vegetarian</option></select><br>
+
+                        <label for="editProfileActivityLevel">Activity Level:</label>
+                        <select id="editProfileActivityLevel" required><option value="sedentary">Sedentary</option><option value="light">Light</option><option value="moderate">Moderate</option><option value="active">Active</option><option value="very_active">Very Active</option></select><br>
+
+                        <label for="editProfileGoals">Primary Goal:</label>
+                        <select id="editProfileGoals" required><option value="weight_loss">Weight Loss</option><option value="muscle_gain">Muscle Gain</option><option value="maintenance">Weight Maintenance</option><option value="endurance">Improve Endurance</option></select><br>
+
+                        <label>Preferred Cuisines (select any):</label>
+                        <div id="editProfileCuisinesContainer" class="cuisine-options-container">
+                            <!-- Checkboxes will be populated by JS -->
+                        </div>
+                        <br>
+
+                        <button type="submit" id="saveProfileChangesBtn" class="action-button">Save Changes</button>
+                        <button type="button" id="cancelProfileEditBtn" class="action-button secondary">Cancel</button>
+                        <p id="editProfileMessage" class="message"></p>
+                    </form>
+
+                    <div id="profileDisplayView">
+                        <p><strong>Username:</strong> <span id="profileUsername">-</span></p>
+                        <p><strong>Age:</strong> <span id="profileAge">-</span></p>
+                        <p><strong>Gender:</strong> <span id="profileGender">-</span></p>
+                        <p><strong>Height:</strong> <span id="profileHeight">-</span> cm</p>
+                        <p><strong>Weight:</strong> <span id="profileWeight">-</span> kg</p>
+                        <p><strong>Diet Preference:</strong> <span id="profileDietPref">-</span></p>
+                        <p><strong>Activity Level:</strong> <span id="profileActivityLevel">-</span></p>
+                        <p><strong>Goals:</strong> <span id="profileGoals">-</span></p>
+                        <p><strong>Preferred Cuisines:</strong> <span id="profileCuisines">-</span></p>
+                        <hr>
+                        <p><strong>Calculated BMI:</strong> <span id="profileBmiValue">-</span></p>
+                        <p><strong>BMI Category:</strong> <span id="profileBmiCategory">-</span></p>
+                        <p><strong>BMR (Basal Metabolic Rate):</strong> <span id="profileBmr">-</span> kcal</p>
+                        <p><strong>TDEE (Total Daily Energy Expenditure):</strong> <span id="profileTdee">-</span> kcal</p>
+                        <p><strong>Target Daily Calories:</strong> <span id="profileTargetCalories">-</span> kcal</p>
+                    </div>
+                </div>
+
+                <div id="dietPage" class="dashboard-page card info-card-detail">
+                    <div class="diet-instructions">
+                        <h4>Healthy Eating Tips:</h4>
+                        <ul>
+                            <li><strong>Stay Hydrated:</strong> Drink plenty of water (aim for 8 glasses or ~2 liters daily).</li>
+                            <li><strong>Portion Control:</strong> Be mindful of serving sizes.</li>
+                            <li><strong>Eat the Rainbow:</strong> Include a variety of colorful fruits and vegetables.</li>
+                            <li><strong>Choose Whole Grains:</strong> Opt for brown rice, quinoa, oats over refined grains.</li>
+                            <li><strong>Lean Protein:</strong> Include sources like chicken, fish, beans, lentils, or tofu.</li>
+                            <li><em>This plan is a suggestion. Adjust based on your preferences and consult a professional if needed.</em></li>
+                        </ul>
+                    </div>
+                    <hr>
+                    <h3>Your 7-Day Personalized Diet Plan</h3>
+                    <div id="weeklyDietPlanTabs">
+                        <!-- Day tabs will be generated by JS here -->
+                    </div>
+                    <div id="dietChartContainer">
+                        <p>Select a day to view your meal plan or click "Regenerate" for new suggestions.</p>
+                    </div>
+                    <button id="regenerateWeeklyDietBtn" class="action-button">Regenerate Full Week Plan</button>
+                </div>
+
+                <div id="workoutsPage" class="dashboard-page card info-card-detail">
+                    <h3>Workout Recommendations</h3>
+                    <div id="workoutListContainer"><p>Loading recommendations...</p></div>
+                    <div id="workoutTimer" style="display:none;">
+                        <h4><span id="currentWorkoutNameTimer">Workout</span> Timer: <span id="timerDisplay">00:00</span></h4>
+                        <button id="startTimerBtn">Start</button>
+                        <button id="pauseTimerBtn" style="display:none;">Pause</button>
+                        <button id="resetTimerBtn">Reset</button>
+                        <button id="logThisWorkoutBtn" style="display:none;">Log This Workout</button>
+                        <p id="workoutTimerMessage" class="message" style="margin-top:10px;"></p>
+                    </div>
+                </div>
+
+                <div id="posePage" class="dashboard-page card info-card-detail">
+                    <h3>Real-time Pose Detection</h3>
+                    <p>Select an exercise to start pose detection.</p>
+                    <select id="exerciseSelectForPose">
+                        <option value="">-- Select Exercise --</option>
+                    </select>
+                    <button id="startPoseBtn" disabled>Start Pose Detection</button>
+                    <div class="webcam-container">
+                        <video id="webcamFeed" autoplay playsinline style="display:none; width:100%;"></video>
+                        <canvas id="poseCanvas" style="display:none; width:100%;"></canvas>
+                    </div>
+                    <p id="poseFeedback" class="message"></p>
+                </div>
+
+                <div id="logsPage" class="dashboard-page card info-card-detail">
+                    <h3>Workout & Activity Logs</h3>
+                    <div id="calorieCycleDisplay" style="margin-bottom: 20px;">
+                        <h4>Your Calorie Cycle (Overview)</h4>
+                        <p>This section will show your daily calorie targets and logged intake over the week. (Functionality to be built)</p>
+                        <ul id="calorieCycleList">
+                            <li>Day 1: Target: - kcal / Actual: - kcal</li>
+                            <li>Day 2: Target: - kcal / Actual: - kcal</li>
+                            <!-- ... up to Day 7 ... -->
+                        </ul>
+                    </div>
+                    <hr>
+                    <h4>Past Workout Logs:</h4>
+                    <div id="workoutLogsDisplay"><ul id="logsList"><li>No logs yet.</li></ul></div>
+                </div>
+
+                <!-- Admin Page (Placeholder - to be expanded if admin has specific UI) -->
+                <div id="adminPage" class="dashboard-page card info-card-detail" style="display:none;">
+                    <h3>Admin Dashboard</h3>
+                    <p>Welcome, Admin! This area is for administrative tasks.</p>
+                    <p>(Further admin functionalities like user management, data overview, etc., can be added here.)</p>
+                    <div id="adminUserList" style="margin-top: 20px;">
+                        <h4>User Management (Example)</h4>
+                        <p>User listing and management tools would go here.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© <span id="currentYear">2024</span> AI Gym Trainer</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
